@@ -25,3 +25,5 @@ if X == "invertebrado" and Y == "anelideo" and Z == "hematofago":
     
 if X == "invertebrado" and Y == "anelideo" and Z == "onivoro":
     print("minhoca")
+
+# Resultado: aceito!!

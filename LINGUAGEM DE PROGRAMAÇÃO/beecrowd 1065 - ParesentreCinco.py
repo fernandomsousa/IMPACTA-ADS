@@ -24,3 +24,5 @@ if parE == 0:
     quantidade = quantidade + 1
 
 print(f"{quantidade} valores pares")
+
+# Resultado: aceito!!
