@@ -10,5 +10,5 @@
 
 <h3> 📚 Materias em curso: </h3>
 ➡️ <a href = "LINGUAGEM DE PROGRAMAÇÃO"> <b> Linguagem de Programação </a> </b> </br>
-➡️ <b> Lógica de Programação </b> </br>
-➡️ <b> Fundamentos de Banco de Dados </b> </br>
+ <b>  </b> </br>
+ <b> </b> </br>
