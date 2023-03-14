@@ -1,4 +1,4 @@
-# Aulas de POO com Python - Exercício: Biblioteca!
+# Aulas de POO com Python - Exercício: Biblioteca Virtual!
 
 class Livro:
     def __init__(self, nome, autor):
