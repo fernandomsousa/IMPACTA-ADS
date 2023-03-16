@@ -14,4 +14,3 @@ class Neta(Filha):
         print("Executando o init de Neta")
         self.p3 = p3
         super().__init__(p1, p2)
-        
