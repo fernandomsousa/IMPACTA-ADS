@@ -8,3 +8,4 @@ class Teste:
 
 if __name__ == '__main__':
     exibe_nome()
+    
