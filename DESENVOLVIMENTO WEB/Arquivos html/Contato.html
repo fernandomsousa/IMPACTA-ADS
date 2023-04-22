@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cursinho Web - Contato</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../imagens/exercicio_html_recursos/livros.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Página Inicial</a> | <a href="disciplinas.html">Disciplinas oferecidas</a> | <a href="Contato.html">Entre em contato</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Dados para contato:</h1>
+        <form method="post" action="recebe_dados.html">
+            <div>
+                <label for="tx-nome">Nome completo:</label><br>
+                <input type="text" name="Nomeuser" id="tx-nome" size="75" required>
+            </div>
+            <div>
+                <label for="e-email">E-mail:</label><br>
+                <input type="email" name="Email" id="e-email" placeholder="example@gmail.com" size="50" required>
+            </div>
+            <div>
+                <br><label for="st-cursos">Qual disciplina te interessa mais?</label><br>
+                <select name="Cursos" id="st-cursos">
+                    <option value="poo">Programação Orientada à Objeto</option>
+                    <option value="dw" selected>Desenvolvimento Web</option>
+                    <option value="EgS">Engenharia de Software</option>
+                    <option value="lpp">Lógica de Programação</option>
+                </select>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Quais linguagens você conhece?</legend>
+                    <input type="checkbox" name="Linguagem" id="cb-cs" value="C#"><label for="cb-cs">C#</label><br>
+                    <input type="checkbox" name="Linguagem" id="cb-jv" value="Java"><label for="cb-jv">Java</label><br>
+                    <input type="checkbox" name="Linguagem" id="cb-jvs" value="JavaS"><label for="cb-jvs">JavaScript</label><br>
+                    <input type="checkbox" name="Linguagem" id="cb-py" value="py"><label for="cb-py">Python</label><br>
+                    <input type="checkbox" name="Linguagem" id="cb-php" value="php"><label for="cb-php">PHP</label><br>
+                    <input type="checkbox" name="Linguagem" id="cb-ruby" value="rby"><label for="cb-ruby">Ruby</label>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Onde você conheceu o Cursinho Web?</legend>
+                    <input type="radio" name="Conheceu" id="rd-amg" value="amg" checked><label for="rd-amg">Amigos</label><br>
+                    <input type="radio" name="Conheceu" id="rd-glg" value="glg"><label for="rd-glg">Google</label><br>
+                    <input type="radio" name="Conheceu" id="rd-ytb" value="ytb"><label for="rd-ytb">Youtube</label><br>
+                    <input type="radio" name="Conheceu" id="rd-ig" value="ig"><label for="rd-ig">Instagram</label>
+
+                </fieldset>
+            </div>
+            <div>
+                <br><button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <br>Cursinho web - Todos os direitos reservados<br>
+            Contato: <a href="mailto:fernandomrs.tec@gmail.com">fernandomrs.tec@gmail.com</a>
+        </div>
+    </footer>
+</body>
+
+</html>

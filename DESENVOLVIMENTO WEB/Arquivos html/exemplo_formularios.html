@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo de formulários</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form method="post" action="recebe_dados.html">
+        <div>
+            <label for="tx-email">E-mail:</label>
+            <input type="email" name="email" id="tx-email" placeholder="example@gmail.com" required>
+        </div>
+        <div>
+            <label for="tx-senha">Senha:</label>
+            <input type="password" name="senha" id="tx-senha" placeholder="********************" required>
+        </div>
+        <div>
+            <label for="tx-data">Data:</label>
+            <input type="date" name="data" id="tx-data">
+        </div>
+        <div>
+            <label for="tx-datahora">Data e Hora:</label>
+            <input type="datetime-local" name="datahora" id="tx-datahora">
+        </div>
+        <div>
+            <label for="tx-numero">Número:</label>
+            <input type="number" name="numero" id="tx-numero">
+        </div>
+        <div>
+            <label for="tx-mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="tx-mensagem"></textarea>
+        </div>
+        <div>
+            <label for="se-estado">Selecione o seu estado:</label>
+            <select name="estado" id="se-estado">
+                <option value="AL">Alagoas</option>
+                <option value="CE">Ceará</option>
+                <option value="SP" selected>São Paulo</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Selecione o turno da sua preferência:</legend>
+                <input type="checkbox" name="turno" id="cb-manha" value="M"><label for="cb-manha">Manhã</label><br>
+                <input type="checkbox" name="turno" id="cb-tarde" value="T"><label for="cb-tarde">Tarde</label><br>
+                <input type="checkbox" name="turno" id="cb-noite" value="N" checked><label for="cb-noite">Noite</label>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset> <!-- Questão estética de organização -->
+                <legend>Selecione seu sexo:</legend>
+                <input type="radio" name="sexo" id="rd-mulher" value="M" checked><label for="rd-mulher">Mulher</label>
+                <input type="radio" name="sexo" id="rd-homem" value="H"><label for="rd-homem">Homem</label>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            <button type="button">Clique aqui!</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
