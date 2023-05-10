@@ -1,0 +1,9 @@
+.div1 {
+    background-color: red;
+    width: 50%; /* Define largura */
+    height: 300px; /* Define altura */
+}
+
+.para1 {
+    font-size: 150px;
+}
